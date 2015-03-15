@@ -43,7 +43,7 @@ section {
     NAVBAR STYLES
 ==================================*/
 .navbar-default {
-    background-color: rgb(35, 133, 161);
+    background-color: #21CCBB;
     border-color: transparent;
     color: #fff;
 }
@@ -74,7 +74,7 @@ section {
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
         padding-top: 90px;
-        background-color: rgba(35, 133, 161,0.75); /*.75 opacity of the color so that background image is visible*/
+        background-color: rgba(#21CCBB); /*.75 opacity of the color so that background image is visible*/
         min-height: 600px;
         color: #fff;
     }
@@ -108,7 +108,7 @@ section {
 
     .parallax-like .overlay {
         min-height: 200px;
-        background: rgba(35, 133, 161,0.9);
+        background: #21CCBB;
         font-size: 40px;
         padding-bottom: 60px;
         padding-top: 60px;
@@ -136,7 +136,7 @@ section {
 }
 
     #video-sec .overlay {
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: #21CCBB;
         min-height: 300px;
         color: #fff;
     }
@@ -151,7 +151,7 @@ section {
     CLIENTS SECTION STYLES
 ==================================*/
 #clients {
-    background-color:#f4f4f4;
+    background-color:#21CCBB;
     padding-bottom:50px;
     padding-top:50px;
 }
@@ -171,7 +171,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-weight: 900;
-    background-color: rgb(35, 133, 161);
+    background-color: #21CCBB;
     color: #fff;
 }
 

@@ -4896,11 +4896,11 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7;
+  border-color: #2C322B;
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333;
+  color: #2C322B;
 }
 .alert {
   padding: 15px;
@@ -4934,48 +4934,48 @@ a.thumbnail.active {
   color: inherit;
 }
 .alert-success {
-  color: #3c763d;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
+  color: #2C322B;
+  background-color: #21CCBB;
+  border-color: #21CCBB;
 }
 .alert-success hr {
-  border-top-color: #c9e2b3;
+  border-top-color: #21CCBB;
 }
 .alert-success .alert-link {
-  color: #2b542c;
+  color: #2C322B;
 }
 .alert-info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
+  color: #2C322B;
+  background-color: #21CCBB;
+  border-color: #21CCBB;
 }
 .alert-info hr {
   border-top-color: #a6e1ec;
 }
 .alert-info .alert-link {
-  color: #245269;
+  color: #2C322B;
 }
 .alert-warning {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
+  color: #2C322B;
+  background-color: #21CCBB;
   border-color: #faebcc;
 }
 .alert-warning hr {
-  border-top-color: #f7e1b5;
+  border-top-color: #21CCBB;
 }
 .alert-warning .alert-link {
-  color: #66512c;
+  color: #2C322B;
 }
 .alert-danger {
-  color: #a94442;
-  background-color: #f2dede;
+  color: #2C322B;
+  background-color: #21CCBB;
   border-color: #ebccd1;
 }
 .alert-danger hr {
   border-top-color: #e4b9c0;
 }
 .alert-danger .alert-link {
-  color: #843534;
+  color: #2C322B;
 }
 @-webkit-keyframes progress-bar-stripes {
   from {

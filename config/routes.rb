@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_pages/contact'
+
+  get 'static_pages/how_it_work'
+
   devise_for :users
   resources :users
 
