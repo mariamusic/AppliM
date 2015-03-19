@@ -18,17 +18,19 @@
 
 /*================================
     GENERAL STYLES
-==================================*/
+=====FREE FONTS */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+html {
+    font-family: 'Oswald', sans-serif;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Oswald', sans-serif;
 }
 
 section {
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .head-set {

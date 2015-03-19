@@ -13,7 +13,7 @@
                 
                 <div class="row center">
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">E-mail</label>
                         <%= f.email_field :email, autofocus: true, class: "form-control", id: "exampleInputEmail1" %>
                        
                       </div>
@@ -21,7 +21,7 @@
 
                    <div class="row center">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Password</label>
+                          <label for="exampleInputEmail1">Contraseña</label>
                            <% if @validatable %>
                           <em>(<%= @minimum_password_length %> characters minimum)</em>
                           <% end %><br />
@@ -41,10 +41,10 @@
 
         <div class="row center">
            
-              <%= f.submit "Regístrate", class: "btn btn-primary"  %>
+              <%= f.submit "Enviar", class: "btn btn-primary"  %>
             </div>
         <% end %>
 
-<br><br><br><br><br>
+<br><br><br><br><br><br>
     </div>
 </section>

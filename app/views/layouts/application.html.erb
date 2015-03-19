@@ -26,7 +26,7 @@
             <div class="navbar-collapse collapse navbar-right scroll-me">
                 <ul class="nav navbar-nav ">
                     <li>
-                     <%= link_to 'Cómo Funciona', users_path %>
+                     <%= link_to 'Cómo Funciona',  static_pages_how_it_work_path%>
                     </li>
                     <li class= "divider"></li>
                     <% if user_signed_in? %>
@@ -44,7 +44,9 @@
                       <%= link_to 'Iniciar Sesión', new_user_session_path %>
                     </li>
 
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><%= link_to "Contacto",static_pages_contact_path %></li>
+                                          
+
                     <% end %>
                 </ul>
             </div>
