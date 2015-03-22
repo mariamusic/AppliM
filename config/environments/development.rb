@@ -42,4 +42,16 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  config.active_support.deprecation = :log
+
+   config.action_mailer.smtp_settings ={
+     :enable_starttls_auto => true,
+     :address            => 'smtp.gmail.com',
+     :port               => 587,
+     :tls                => true,
+     :domain             => 'gmail.com',
+     :authentication     => :plain,
+     :user_name          => 'crearmy@gmail.com',
+     :password           => 'xxxxxx' 
+   }
 end
